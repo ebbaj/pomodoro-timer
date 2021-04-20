@@ -14,7 +14,7 @@ function App() {
   const [timeLeft, setTimeLeft] = useState(sessionLength);
 
   //useEffect
-  //Change timeLeft whenever sessionLength changes
+  //Change timeLeft whenever sessionLength changes.
   useEffect(() => {
     setTimeLeft(sessionLength);
   }, [sessionLength]);
